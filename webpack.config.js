@@ -9,7 +9,7 @@ module.exports = {
     bungle: path.resolve(__dirname, "./src/script.js"),
   },
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "public"),
     filename: "[name][contenthash].js",
     clean: true,
     assetModuleFilename: "[name][ext]",
